@@ -1,0 +1,59 @@
+Link para baixar git
+git-scm.com
+
+iniciar um noco projeto com git
+git init
+
+add os arquivos que estão prontos para serem commitados
+git add <nome-arquivo>/ ou .
+
+commit os arquivos no historico
+git commit -m "<sua mensagem de commit>"
+
+altera o ultimo commit
+git commit --amend -m "<sua mensagem de commit>"
+
+mostra todos os commit
+git mostra o que foi alterado na ramificação
+gif diff
+
+cria uma nova branch a partir da branch atual
+git branch -b <nome-da-nova-branch>
+
+muda para este branch
+git checkout <nome-branch>
+
+git merge
+merge de ramificaço (mescla a ramificação)
+
+configura o usuario do git hub
+git config --global user.name "<seu-nome>"
+
+configura email do git hub
+git config --global user.email "<seu-email-cadastrado-no-git.com>"
+
+mostra todas as configurações que temos ja feito
+git config --global --list
+
+mostra todas configurações que podemos fazer
+git config --list
+
+manda nossas alterações locais para o repositorio remoto, para cada branch
+git remote add origin <nome da branch>
+
+manda nossas alterações locais  para o repositorio remoto
+git push
+git push origin <nome-da-branch>
+
+pega as alterações do repositorio remoto e joga para nossa maquina
+git pull
+git pull origin <nome-do-arquivo>
+
+atualiza nosso hisorico local de acordo com o historico salvo la no repositorio remoto
+git fetch
+
+copia (clona um repositorio) e cria uma pasta com o clone dentro
+git cone <url-do-repositorio> <nome-da-pasta>
+
+volta para o arquivo original, cancela todas as modificações feitas
+git restore <nome-do-arquivo>
