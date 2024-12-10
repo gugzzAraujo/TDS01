@@ -53,9 +53,9 @@ atualiza nosso hisorico local de acordo com o historico salvo la no repositorio 
 git fetch
 
 copia (clona um repositorio) e cria uma pasta com o clone dentro
-git cone <url-do-repositorio> <nome-da-pasta>
+git clone <url-do-repositorio> <nome-da-pasta>
 
 volta para o arquivo original, cancela todas as modificações feitas
 git restore <nome-do-arquivo>
 
-dssdds
+
